@@ -4,15 +4,6 @@ void setup(){
 }
 void draw(){
   noStroke();
-  //tail
-  beginShape();
-  curveVertex(460,  440);
-  curveVertex(470,  430);
-  curveVertex(465,  425);
-  curveVertex(84,  420);
-  curveVertex(128, 400);
-  curveVertex(128, 400);
-  endShape();
   //body
   fill(255,182,193);
   ellipse(250,250,250,230);
